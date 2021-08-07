@@ -2,10 +2,10 @@ import React from 'react';
 import Styled from 'styled-components';
 
 const Section = Styled.section`
-	width: 100%;
+	
     display: flex;
     align-items: center;
-    height: 75px;
+    height: 65px;
     padding: 0px 30px;
     background-color: #212121;
     color: #fff;
@@ -13,6 +13,7 @@ const Section = Styled.section`
         font-size: 25px;
         display: flex;
         align-items:center;
+
         
     }
     .spacer{
@@ -25,7 +26,7 @@ const Section = Styled.section`
 function Header() {
 	return (
 		<Section>
-			<div className="logo">HostGuestPicker</div>
+			<div className="logo-box ff-pb">HostGuestPicker</div>
 			<div className="spacer"></div>
 			<div className="menu-list"></div>
 		</Section>
